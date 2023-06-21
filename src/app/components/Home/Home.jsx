@@ -22,13 +22,13 @@ const Home = () => {
         <div className="flex justify-center items-center gap-10">
           <div className="flex flex-col items-start justify-self-auto gap-4">
             <h1 className="text-[#FF8303] text-6xl font-bold">
-              Alexey Borisov
+              Ankit Yadav
             </h1>
             <label className="text-[#F0E3CA] text-4xl">
-              Frontend Developer
+              MERN Developer
             </label>
             <p className="text-[#F0E3CA] text-xl w-96">
-              Frontend developer looking for ideas and projects for himself and
+              MERN developer looking for ideas and projects for himself and
               others
             </p>
           </div>
