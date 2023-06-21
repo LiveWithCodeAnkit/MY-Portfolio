@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Pacifico&family=Poppins&family=Roboto&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
