@@ -18,7 +18,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
+          <div className="flex flex-col lg:flex-row justify-center items-center  gap-10">
             <div className="flex flex-col items-start justify-center gap-2">
               <h1 className="text-[#FF8303] text-4xl font-bold">
                 Ankit Yadav
@@ -33,7 +33,12 @@ const Home = () => {
             </div>
             <div className="relative w-96 h-96">
               <Image src="/homepic2.png" fill alt={"Np Image Found"} />
+
+              <div className="w-56 h-56 absolute left-20  top-24" >
+                <Image src="/pp.png" fill alt={"No Image Found"}/>
             </div>
+            </div>
+           
           </div>
         </div>
       </section>

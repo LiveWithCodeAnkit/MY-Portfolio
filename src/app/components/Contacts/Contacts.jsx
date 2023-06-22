@@ -15,7 +15,7 @@ const Contacts = () => {
               If you liked my work and you need me, I'm ready to talk to you.
             </p>
           </div>
-          <div className="flex flex-col  items-start gap-5 p-6 flex-wrap">
+          <div className="flex flex-col  items-start gap-5  flex-wrap">
             <h1 className="text-[#FF8303] text-3xl font-bold">Contacts</h1>
             <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
               <div className="flex justify-center items-center gap-4">
@@ -26,7 +26,7 @@ const Contacts = () => {
                   alt="image not found"
                 />
                 <Link
-                  className="text-[#FF8303] text-2xl text-center"
+                  className="text-[#FF8303] text-xl text-center"
                   href="mailto:ankityadav119liv@gmail.com"
                 >
                   ankityadav119liv@gmail.com
