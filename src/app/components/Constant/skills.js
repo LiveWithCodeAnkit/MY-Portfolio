@@ -16,12 +16,27 @@ export const skills = [
   },
   {
     id: "4",
-    title: "SCSS",
-    img: "/scss.png",
+    title: "Tailwind",
+    img: "/tailwind.png",
   },
   {
-    id: "4",
+    id: "5",
     title: "Git",
     img: "/git.png",
+  },
+  {
+    id: "6",
+    title: "React JS",
+    img: "/react.png",
+  },
+  {
+    id: "7",
+    title: "Next JS",
+    img: "/nextjs.png",
+  },
+  {
+    id: "8",
+    title: "Node JS",
+    img: "/nodejs.png",
   },
 ];

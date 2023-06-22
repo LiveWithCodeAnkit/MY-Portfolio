@@ -6,7 +6,7 @@ const MySkills = () => {
   return (
     <>
       <section id="skills">
-        <div className="bg-[#1F1E1B] flex flex-col justify-center items-center font-Inconsolata py-52 gap-9 flex-wrap">
+        <div className="bg-[#1F1E1B] flex flex-col justify-center items-center font-Inconsolata  gap-9 flex-wrap py-44">
           <div className="flex justify-center items-center">
             <h1 className="text-[#FF8303] text-3xl font-semibold">My Skills</h1>
           </div>
@@ -17,8 +17,13 @@ const MySkills = () => {
                   className="flex flex-col justify-center items-center gap-3 font-Lato bg-[#21201D] p-12 rounded-lg"
                   key={item.id}
                 >
-                  <Image src={item.img} width={128} height={128} />
-                  <label className="text-3xl text-white">{item.title}</label>
+                  <div className="relative w-20 h-20">
+                    <Image src={item.img} fill alt="Image Not Found" />
+                  </div>
+
+                  <label className="text-xl lg:text-3xl text-white">
+                    {item.title}
+                  </label>
                 </div>
               ))}
             </div>
