@@ -11,8 +11,8 @@ const Contacts = () => {
               <span className="text-[#FF8303]">&lt;/A</span>nkit
               <span className="text-[#FF8303]">&gt;</span>
             </h1>
-            <p className="text-[#F0E3CA] text-xl">
-              If you liked my work and you need me, I'm ready to talk to you.
+             <p className="text-[#F0E3CA] text-xl">
+              If you liked my work and you need me, I&apos;m ready to talk to you.
             </p>
           </div>
           <div className="flex flex-col  items-start gap-5  flex-wrap">
