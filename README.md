@@ -9,7 +9,6 @@ This Git repository contains a Next.js project for building a  portfolio templat
 - Integration of Google Fonts for enhanced typography.
 - Routing functionality to redirect to specific page sections.
 ## Topics Covered
-
 - Next JS
 - JavaScript
 - HTML5
